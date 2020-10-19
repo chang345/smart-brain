@@ -1,3 +1,3 @@
 module.exports = {
-  apiHost: process.env.API_HOST,
+  apiHost: `https:// + ${process.env.API_HOST}`,
 };
