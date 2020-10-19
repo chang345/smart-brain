@@ -1,3 +1,4 @@
+const apiHost = 'https://' + process.env.API_HOST;
 module.exports = {
-  apiHost: 'https://enigmatic-ridge-49614.herokuapp.com',
+  apiHost: apiHost,
 };
